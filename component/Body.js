@@ -21,7 +21,7 @@ function Body(){
                if(e.key === "Enter")
                   generateProfile(e);
             }}/>
-            <button onClick={(e)=>generateProfile(e)}>setCount</button>
+            <button onClick={(e)=>generateProfile(e)}>View</button>
         </div>
 
       <div className="profile">
