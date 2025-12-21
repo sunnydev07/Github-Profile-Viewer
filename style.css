@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(239, 152, 152);
+}
+#root{
+    width:100vw;
+    padding-top:2px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 20px;
+    height: 100%    ;
+}
+#Heading{
+    height: 150px;
+    background-color: rgb(90, 93, 238);
+    border-radius: 30px;
+    margin: 0px 10px; 
+}
+h1{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    margin: 10px 30px 5px 30px;
+    color: white;    
+}
+img{
+    height: 180px;
+    border-radius: 50%;
+}
+.card{
+    align-items: center;
+    margin: 10px 32px 30px 30px;
+    background:#333;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow:5px 7px 10px rgb(239, 43, 43);
+    transition: all 0.5s ease; 
+}
+.card:hover{
+    transform: translateX(-10px);
+    transform: translateY(-7px);
+    box-shadow:8px 10px 20px rgb(90, 93, 238);
+    
+}
+.countbutton input{
+    border-radius: 15px;
+    padding: 8px;
+    padding-left: 20px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 17px;
+    border: none;
+}
+.countbutton button{
+    background-color: rgb(90, 93, 238);
+    border-radius: 20px;
+    width: 100px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 10px;
+}
+.countbutton button:hover{
+    opacity: 0.9;
+    transform: translate(-1px,1px);
+}
+a button{
+    
+}
