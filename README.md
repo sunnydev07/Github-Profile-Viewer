@@ -103,3 +103,8 @@ Pull requests are welcome! Feel free to open an issue for bugs, feature requests
 
 This project is licensed under the [ISC License](https://opensource.org/licenses/ISC).
 
+---
+
+## 📝 Changelog
+
+- 2026-08-19: Updated documentation
